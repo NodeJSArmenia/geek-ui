@@ -1,62 +1,86 @@
-body{
-    background-color: #383838;
-    font-family: arial;
-    color: white;
-    text-align: center;
-    margin: 0px;
+body {
+  background-color: #383838;
+  font-family: arial;
+  color: white;
+  text-align: center;
+  margin: 0px;
 }
 
-.profile-img{
-    clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);}
-
-.conteiner{
-    width: 1300px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+.profile-img {
+  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+  transition: 0.3s;
 }
 
-header{
-    border-bottom: 1px solid #6FC24D;
-    margin-bottom: 50px;
-}
- 
-.item{
-    margin: 30px;
+.profile-img:hover {
+  scale: 1.1;
 }
 
-.tags{
-    font-size: 25px;
-}
-.name{
-    font-size: 35px;
-}
-
-.logo{
-    font-size: 100px;
-    color: #6FC24D;
-    margin:20px 30px;
-    text-align: left;
+.conteiner {
+  width: 1300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
 }
 
-.search-input{
-    width: 40%;
-    height: 50px;
-    padding: 5px 15px;
-    margin: 80px 0;
-    border: none;
-    font-size: 40px;
-    background-color: rgb(209, 209, 209);
-    color: #383838;
+header {
+  border-bottom: 1px solid #6fc24d;
+  margin-bottom: 50px;
+}
+
+.item {
+  margin: 30px;
+  width: 300px;
+}
+
+.tags {
+  color: #b7b7b7;
+  font-size: 20px;
+}
+.name {
+  font-size: 30px;
+}
+
+.logo {
+  font-size: 50px;
+  color: #6fc24d;
+  margin: 20px 30px;
+  text-align: left;
+}
+
+.search-input {
+  width: 40%;
+  height: 50px;
+  padding: 5px 15px;
+  margin: 10px 0 60px 0;
+  border: none;
+  font-size: 30px;
+  background-color: rgb(209, 209, 209);
+  color: #383838;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon-item {
+  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+  width: 35px;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.icon-item:hover {
+  scale: 1.1;
 }
 
 @media only screen and (max-width: 900px) {
-    .conteiner{
-        width: 100px;
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 100px;
-    }
+  .conteiner {
+    width: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 100px;
+  }
 }
