@@ -53,12 +53,26 @@ header {
 .search-input {
   width: 40%;
   height: 50px;
-  padding: 5px 15px;
-  margin: 10px 0 60px 0;
-  border: none;
+  border:none;
+  border-bottom: 2px solid #6fc24d;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
   font-size: 30px;
-  background-color: rgb(209, 209, 209);
-  color: #383838;
+  background-color: rgb(0,0,0,0);
+
+  margin: 10px 0 60px 0;
+}
+
+.search-input:focus::-webkit-input-placeholder {
+  transition: text-indent 0.8s 0.8s ease; 
+  text-indent: -100%;
+  opacity: 1;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 1;
 }
 
 a {
