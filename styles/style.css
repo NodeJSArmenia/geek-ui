@@ -1,0 +1,135 @@
+body {
+  background-color: #383838;
+  font-family: Barlow;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  background: url("../assets/bg-pattern.jpg");
+}
+
+.profile-img {
+  display: inline-block;
+  width: 100%;
+  filter: url("#goo");
+  transition: 0.3s;
+}
+
+.profile-img::before {
+  content: "";
+  display: block;
+  padding-top: 86%;
+  background: var(--b);
+  filter: grayscale(100%);
+  padding-top: 100%;
+  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+}
+
+.profile-img:hover {
+  scale: 1.1;
+}
+
+.icon-item {
+  display: inline-block;
+  width: 35px;
+  filter: url("#goo2");
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.icon-item::before {
+  content: "";
+  display: block;
+  padding-top: 86%;
+  background: var(--b);
+  filter: grayscale(100%);
+  padding-top: 100%;
+  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+}
+
+.icon-item:hover {
+  scale: 1.1;
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  border-bottom: 1px solid #6fc24d;
+  margin-bottom: 50px;
+}
+
+.item {
+  margin: 30px;
+  width: 230px;
+}
+
+.tags {
+  color: #b7b7b7;
+  font-size: 16px;
+}
+.name {
+  font-size: 25px;
+}
+
+.logo {
+  font-size: 35px;
+  color: #6fc24d;
+  margin: 20px 30px;
+  text-align: left;
+}
+
+.hashtag {
+  color: white;
+  font-size: 30px;
+}
+
+.search-input {
+  width: 50%;
+  min-width: 300px;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #6fc24d;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0, 0);
+  margin: 10px 0 60px 0;
+}
+
+.search-input:focus::-webkit-input-placeholder {
+  transition: text-indent 0.8s 0.8s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+footer {
+  margin: 50px;
+}
+
+.inline-link {
+  color: #6fc24d;
+  font-weight: bold;
+}
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    text-align: center;
+  }
+}
