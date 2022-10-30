@@ -1,9 +1,9 @@
 body {
-  background-color: #383838;
   font-family: Barlow;
   color: white;
   margin: 0px;
-  background: url("../assets/bg-pattern.jpg");
+  background: url("../assets/bg-pattern.jpg") #383838;
+  text-align: center;
 }
 
 .profile-img {
@@ -20,7 +20,7 @@ body {
   background: var(--b);
   filter: grayscale(100%);
   padding-top: 100%;
-  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
 .profile-img:hover {
@@ -32,24 +32,53 @@ body {
   width: 35px;
   filter: url("#goo2");
   transition: 0.3s;
-  margin: 5px;
+  margin: 3px;
 }
 
 .icon-item::before {
+  transition: background 0.2s ease;
   content: "";
   display: block;
   padding-top: 86%;
-  background: var(--b);
-  filter: grayscale(100%);
   padding-top: 100%;
-  clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%);
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
 }
 
-.icon-item:hover {
-  scale: 1.1;
+.youtube-icon::before {
+  background: url(../assets/icons/youtube.png) center/cover;
+}
+
+.youtube-icon:hover::before {
+  background: url(../assets/icons/youtube-hover.png) center/cover;
+}
+
+.fb-icon::before {
+  background: url(../assets/icons/fb.png) center/cover;
+}
+
+.fb-icon:hover::before {
+  background: url(../assets/icons/fb-hover.png) center/cover;
+}
+
+.twitter-icon::before {
+  background: url(../assets/icons/twitter.png) center/cover;
+}
+
+.twitter-icon:hover::before {
+  background: url(../assets/icons/twitter-hover.png) center/cover;
+}
+
+.medium-icon::before {
+  background: url(../assets/icons/medium.png) center/cover;
+}
+
+.medium-icon:hover::before {
+  background: url(../assets/icons/medium-hover.png) center/cover;
 }
 
 .conteiner {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -67,7 +96,7 @@ header {
 
 .item {
   margin: 30px;
-  width: 230px;
+  width: 180px;
 }
 
 .tags {
@@ -153,6 +182,15 @@ a {
 
 .registration-button-container {
   padding: 40px 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.green-hashtag {
+  color: #6cc24a;
 }
 
 @media only screen and (max-width: 800px) {
