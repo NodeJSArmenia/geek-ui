@@ -199,7 +199,7 @@ a {
   color: #6cc24a;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .logo {
     text-align: center;
   }
