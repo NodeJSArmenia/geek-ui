@@ -6,16 +6,21 @@ fetch("https://geek-api.onrender.com/geeks")
   })
   .then(handleGeeksData)
 
-function handleGeeksData(data) {
-  console.log(data)
+function handleGeeksData(geeks) {
+  console.log(geeks)
 
-  const item = document.createElement("div")
-  item.classList.add("item")
-  conteiner.appendChild(item)
+  geeks.forEach((geek) => {
+    const item = document.createElement("div")
+    item.classList.add("item")
+    conteiner.appendChild(item)
 
-  const name = document.createElement("h1")
-  name.classList.add("name")
-  item.appendChild(name)
+    const name = document.createElement("h1")
+    name.classList.add("name")
+    name.innerHTML = `${geek.name.split(" ")[0]} <br/> ${
+      geek.name.split(" ")[1]
+    }`
+    item.appendChild(name)
+  })
 }
 
 /*
