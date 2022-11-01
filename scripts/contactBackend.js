@@ -9,3 +9,5 @@ fetch("https://geek-api.onrender.com/geeks")
 function handleGeeksData(data) {
   console.log(data)
 }
+
+//
