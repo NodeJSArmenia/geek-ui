@@ -25,6 +25,13 @@ function handleGeeksData(geeks) {
       geek.name.split(" ")[1]
     }`
     item.appendChild(name)
+
+    const tags = document.createElement("p")
+    tags.classList.add("tags")
+    geek.hashtags.forEach((hashtag) => {
+      tags.innerHTML += ` <span class="green-hashtag">#</span>${hashtag}`
+    })
+    item.appendChild(tags)
   })
 }
 
