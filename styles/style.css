@@ -86,12 +86,10 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #6fc24d;
-  margin-bottom: 50px;
-  text-align: right;
+  margin: 40px 60px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 15px;
+  align-items: center;
 }
 
 .item {
@@ -165,11 +163,19 @@ a {
 
 .registration-button {
   border: 2px #6cc24a solid;
-  right: 10px;
   font-size: 20px;
   color: white;
   padding: 5px 20px;
-  border-radius: 5px;
+  background: #6fc24d;
+  font-weight: 500;
+  border-radius: 20px 0px 20px 0px;
+  margin: 0;
+
+  transition: border-radius 0.3s;
+}
+
+.registration-button:hover {
+  border-radius: 0px 20px 0px 20px;
 }
 
 .registration-button:hover {
@@ -181,7 +187,7 @@ a {
 }
 
 .registration-button-container {
-  padding: 40px 20px;
+
 }
 
 .main {
@@ -193,7 +199,7 @@ a {
   color: #6cc24a;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .logo {
     text-align: center;
   }
