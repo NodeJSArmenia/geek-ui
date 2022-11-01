@@ -11,12 +11,11 @@ function handleGeeksData(data) {
 
   const item = document.createElement("div")
   item.classList.add("item")
+  conteiner.appendChild(item)
 
   const name = document.createElement("h1")
   name.classList.add("name")
-
-  
-  conteiner.body.appendChild(item)
+  item.appendChild(name)
 }
 
 /*
