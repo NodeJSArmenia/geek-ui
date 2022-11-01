@@ -20,7 +20,7 @@ body {
   background: var(--b);
   filter: grayscale(100%);
   padding-top: 100%;
-  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  clip-path: polygon(6% 25%, 50% 0, 94% 25%, 94% 75%, 50% 100%, 6% 75%);
 }
 
 .profile-img:hover {
@@ -41,39 +41,39 @@ body {
   display: block;
   padding-top: 86%;
   padding-top: 100%;
-  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  clip-path: polygon(6% 25%, 50% 0, 94% 25%, 94% 75%, 50% 100%, 6% 75%);
 }
 
 .youtube-icon::before {
-  background: url(../assets/icons/youtube.png) center/cover;
+  background: url(../assets/icons/youtube.png) center/cover white;
 }
 
 .youtube-icon:hover::before {
-  background: url(../assets/icons/youtube-hover.png) center/cover;
+  background: url(../assets/icons/youtube-hover.png) center/cover #6fc24d;
 }
 
 .fb-icon::before {
-  background: url(../assets/icons/fb.png) center/cover;
+  background: url(../assets/icons/fb.png) center/cover white;
 }
 
 .fb-icon:hover::before {
-  background: url(../assets/icons/fb-hover.png) center/cover;
+  background: url(../assets/icons/fb-hover.png) center/cover #6fc24d;
 }
 
 .twitter-icon::before {
-  background: url(../assets/icons/twitter.png) center/cover;
+  background: url(../assets/icons/twitter.png) center/cover white;
 }
 
 .twitter-icon:hover::before {
-  background: url(../assets/icons/twitter-hover.png) center/cover;
+  background: url(../assets/icons/twitter-hover.png) center/cover #6fc24d;
 }
 
 .medium-icon::before {
-  background: url(../assets/icons/medium.png) center/cover;
+  background: url(../assets/icons/medium.png) center/cover white;
 }
 
 .medium-icon:hover::before {
-  background: url(../assets/icons/medium-hover.png) center/cover;
+  background: url(../assets/icons/medium-hover.png) center/cover #6fc24d;
 }
 
 .conteiner {
