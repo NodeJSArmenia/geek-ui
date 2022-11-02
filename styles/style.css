@@ -27,6 +27,7 @@ body {
   scale: 1.1;
 }
 
+/* 
 .icon-item {
   display: inline-block;
   width: 35px;
@@ -74,7 +75,7 @@ body {
 
 .medium-icon:hover::before {
   background: url(../assets/icons/medium-hover.png) center/cover #6fc24d;
-}
+} */
 
 .conteiner {
   width: 100%;
@@ -186,7 +187,6 @@ a {
 }
 
 .registration-button-container {
-
 }
 
 .main {
@@ -211,4 +211,35 @@ a {
   .registration-button-container {
     padding: 0;
   }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-item {
+  margin: 2px;
+  width: 36px;
+  height: 40px;
+  background: url("https://topentol.sirv.com/geeker/footer/polygon-white.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item:hover {
+  background: url("https://topentol.sirv.com/geeker/footer/polygon-green.svg");
+}
+
+.icon-svg-path {
+  fill: #333;
+}
+
+.icon-item:hover .icon-svg-path {
+  fill: #d7d7d7;
+}
+
+.medium-icon {
+  scale: 0.7;
 }
