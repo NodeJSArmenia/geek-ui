@@ -41,6 +41,7 @@ function handleGeeksData(geeks) {
       const a = document.createElement("a")
       icons.appendChild(a)
       a.setAttribute("href", geek.websites.youtube)
+      a.setAttribute("target", "_blank")
 
       a.innerHTML = `<div class="icon-item">
       <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg"  width="16" height="12" viewBox="0 0 16 12">
@@ -54,6 +55,7 @@ function handleGeeksData(geeks) {
       const a = document.createElement("a")
       icons.appendChild(a)
       a.setAttribute("href", geek.websites.twitter)
+      a.setAttribute("target", "_blank")
 
       a.innerHTML = `<div class="icon-item">
       <svg  class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13">
@@ -67,6 +69,7 @@ function handleGeeksData(geeks) {
       const a = document.createElement("a")
       icons.appendChild(a)
       a.setAttribute("href", geek.websites.facebook)
+      a.setAttribute("target", "_blank")
 
       a.innerHTML = `<div class="icon-item">               
       <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -80,6 +83,7 @@ function handleGeeksData(geeks) {
       const a = document.createElement("a")
       icons.appendChild(a)
       a.setAttribute("href", geek.websites.medium)
+      a.setAttribute("target", "_blank")
 
       a.innerHTML = `<div class="icon-item">                   
       <svg class="medium-icon icon-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
