@@ -197,6 +197,14 @@ a {
   text-align: center;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .telegram-group {
   margin: 30px;
   width: 100px;
