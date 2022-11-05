@@ -15,9 +15,14 @@ fetch("https://geek-api.onrender.com/telegram-groups")
 
 function handleGeeksData(geeks) {
   geeks.forEach((geek) => {
+    const urlCreator = document.createElement("a")
+    geeksConteiner.appendChild(urlCreator)
+    urlCreator.setAttribute("href", `#${geek.name}`)
+
     const item = document.createElement("div")
     item.classList.add("item")
-    geeksConteiner.appendChild(item)
+    urlCreator.appendChild(item)
+    item.setAttribute("id", geek.name)
 
     const profileImg = document.createElement("div")
     profileImg.classList.add("profile-img")
@@ -136,4 +141,3 @@ function handleTelegramGroups(groups) {
     tgName.innerHTML = group.name
   })
 }
-
