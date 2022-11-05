@@ -15,13 +15,13 @@ fetch("https://geek-api.onrender.com/telegram-groups")
 
 function handleGeeksData(geeks) {
   geeks.forEach((geek) => {
-    const urlCreator = document.createElement("a")
-    geeksConteiner.appendChild(urlCreator)
-    urlCreator.setAttribute("href", `#${geek.name}`)
+    // const urlCreator = document.createElement("a")
+    // geeksConteiner.appendChild(urlCreator)
+    // urlCreator.setAttribute("href", `#${geek.name}`)
 
     const item = document.createElement("div")
     item.classList.add("item")
-    urlCreator.appendChild(item)
+    geeksConteiner.appendChild(item)
     item.setAttribute("id", geek.name)
 
     const profileImg = document.createElement("div")
