@@ -1,4 +1,5 @@
-const conteiner = document.getElementsByClassName("conteiner")[0]
+const geeksConteiner = document.getElementById("geeks-conteiner")
+const tgGroupsConteiner = document.getElementById("telegram-groups-conteiner")
 
 fetch("https://geek-api.onrender.com/geeks")
   .then((res) => {
@@ -6,13 +7,17 @@ fetch("https://geek-api.onrender.com/geeks")
   })
   .then(handleGeeksData)
 
-function handleGeeksData(geeks) {
-  console.log(geeks)
+fetch("https://geek-api.onrender.com/telegram-groups")
+  .then((res) => {
+    return res.json()
+  })
+  .then(handleTelegramGroups)
 
+function handleGeeksData(geeks) {
   geeks.forEach((geek) => {
     const item = document.createElement("div")
     item.classList.add("item")
-    conteiner.appendChild(item)
+    geeksConteiner.appendChild(item)
 
     const profileImg = document.createElement("div")
     profileImg.classList.add("profile-img")
@@ -108,3 +113,27 @@ function handleGeeksData(geeks) {
     }
   })
 }
+
+function handleTelegramGroups(groups) {
+  groups.forEach((group) => {
+    const a = document.createElement("a")
+    tgGroupsConteiner.appendChild(a)
+    a.setAttribute("target", "_blank")
+    a.setAttribute("href", group.link)
+
+    const tgGroup = document.createElement("div")
+    tgGroup.classList.add("telegram-group")
+    a.appendChild(tgGroup)
+
+    const tgLogo = document.createElement("img")
+    tgLogo.classList.add("tg-logo")
+    tgLogo.setAttribute("src", group.avatar)
+    tgGroup.appendChild(tgLogo)
+
+    const tgName = document.createElement("p")
+    tgName.classList.add("tg-name")
+    tgGroup.appendChild(tgName)
+    tgName.innerHTML = group.name
+  })
+}
+

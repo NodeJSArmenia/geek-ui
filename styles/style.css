@@ -190,3 +190,24 @@ a {
 .medium-icon {
   scale: 0.7;
 }
+
+.green-title {
+  font-size: 35px;
+  color: #6fc24d;
+  text-align: center;
+}
+
+.telegram-group {
+  margin: 30px;
+  width: 100px;
+}
+
+.tg-logo {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 15%;
+}
+
+.tg-name {
+  font-size: 18px;
+}
