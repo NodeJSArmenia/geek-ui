@@ -146,6 +146,10 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
+  .header-title {
+    margin-bottom: 50px;
+  }
+
   .logo {
     text-align: center;
   }
@@ -219,4 +223,5 @@ a {
 
 .tg-name {
   font-size: 18px;
+  font-weight: 600;
 }
