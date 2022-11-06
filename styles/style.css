@@ -219,6 +219,11 @@ a {
   height: 100px;
   filter: grayscale(100%);
   border-radius: 15%;
+  transition: 0.3s;
+}
+
+.tg-logo:hover {
+  scale: 1.1;
 }
 
 .tg-name {
