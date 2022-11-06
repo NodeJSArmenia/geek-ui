@@ -19,3 +19,10 @@ setInterval(() => {
     word++
   }
 }, 1000 / 6)
+
+/*
+    <!-- <div class="search-bar">
+        <span class="hashtag">#</span>
+        <input type="text" class="search-input" placeholder="Search...">
+    </div> -->
+*/
