@@ -14,9 +14,8 @@ fetch("https://geek-api.onrender.com/telegram-groups")
   .then(handleTelegramGroups)
 
 function handleGeeksData(geeks) {
+  geeksConteiner.innerHTML = ""
   geeks.forEach((geek) => {
-    geeksConteiner.innerHTML = ""
-
     const item = document.createElement("div")
     item.classList.add("item")
     geeksConteiner.appendChild(item)
@@ -118,14 +117,13 @@ function handleGeeksData(geeks) {
 }
 
 function handleTelegramGroups(groups) {
-  tgGroupsConteiner = ""
+  tgGroupsConteiner.innerHTML = ""
   groups.forEach((group) => {
     const a = document.createElement("a")
     tgGroupsConteiner.appendChild(a)
     a.setAttribute("target", "_blank")
     a.setAttribute("href", group.link)
 
-    
     const tgGroup = document.createElement("div")
     tgGroup.classList.add("telegram-group")
     a.appendChild(tgGroup)
@@ -149,12 +147,12 @@ geeksConteiner.innerHTML = `
 <div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
 <div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
 `
-tgGroupsConteiner = `
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
-<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+tgGroupsConteiner.innerHTML = `
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
+<a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
 `
