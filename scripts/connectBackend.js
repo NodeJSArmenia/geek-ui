@@ -125,6 +125,7 @@ function handleTelegramGroups(groups) {
     a.setAttribute("target", "_blank")
     a.setAttribute("href", group.link)
 
+    
     const tgGroup = document.createElement("div")
     tgGroup.classList.add("telegram-group")
     a.appendChild(tgGroup)
