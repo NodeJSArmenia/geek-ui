@@ -231,3 +231,24 @@ a {
   font-size: 18px;
   font-weight: 600;
 }
+
+.loading-color::before {
+  background: #515151;
+  animation: mymove 0.5s infinite alternate;
+}
+
+@keyframes mymove {
+  from {
+    background-color: #515151;
+  }
+  to {
+    background-color: #414141;
+  }
+}
+
+.loading-rect {
+  background-color: #515151;
+  margin: 10px;
+  border-radius: 15%;
+  animation: mymove 0.5s infinite alternate;
+}

@@ -15,9 +15,7 @@ fetch("https://geek-api.onrender.com/telegram-groups")
 
 function handleGeeksData(geeks) {
   geeks.forEach((geek) => {
-    // const urlCreator = document.createElement("a")
-    // geeksConteiner.appendChild(urlCreator)
-    // urlCreator.setAttribute("href", `#${geek.name}`)
+    geeksConteiner.innerHTML = ""
 
     const item = document.createElement("div")
     item.classList.add("item")
@@ -120,6 +118,7 @@ function handleGeeksData(geeks) {
 }
 
 function handleTelegramGroups(groups) {
+  tgGroupsConteiner = ""
   groups.forEach((group) => {
     const a = document.createElement("a")
     tgGroupsConteiner.appendChild(a)
@@ -141,3 +140,20 @@ function handleTelegramGroups(groups) {
     tgName.innerHTML = group.name
   })
 }
+
+geeksConteiner.innerHTML = `
+<div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
+<div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
+<div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
+<div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
+<div class="item"><div class="profile-img loading-color" style="--b:#000000"></div></div>
+`
+tgGroupsConteiner = `
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+<div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div>
+`
