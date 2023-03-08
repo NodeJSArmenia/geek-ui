@@ -3,7 +3,7 @@ const telegram_url = "https://topentol.sirv.com/geeker/telegram";
 window.telegramGroups = [
     {
         name: "JavaScript Armenia",
-        avatar: `${telegram_url}/JavaScript.png`,
+        avatar: `${telegram_url}/JavaScript-min.png`,
         link: "https://t.me/javascriptarmenia"
     },
     {
@@ -13,7 +13,7 @@ window.telegramGroups = [
     },
     {
         name: "React Armenia",
-        avatar: `${telegram_url}/React.png`,
+        avatar: `${telegram_url}/React-min.png`,
         link: "https://t.me/reactarmenia"
     },
     {
@@ -28,7 +28,7 @@ window.telegramGroups = [
     },
     {
         name: "Juniors",
-        avatar: `${telegram_url}/Juniors.png`,
+        avatar: `${telegram_url}/Juniors-min.png`,
         link: "https://t.me/techjuniorsAMChat"
     },
     {
@@ -108,7 +108,7 @@ window.telegramGroups = [
     },
     {
         name: "սարեան",
-        avatar: `${telegram_url}/S.png`,
+        avatar: `${telegram_url}/S-min.png`,
         link: "https://t.me/sarian_netters"
     }
 ]

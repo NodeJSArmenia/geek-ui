@@ -63,7 +63,7 @@ window.geeks = [
             "Canvas",
             "JavaScript"
         ],
-        avatar: `${geeks_url}/Alen.png`,
+        avatar: `${geeks_url}/Alen-min.png`,
         websites: {
             "youtube": "https://www.youtube.com/channel/UC3wj8tB4qIDH3u8_MHfbN8w",
             "medium": "https://medium.com/@AlenAbrahamyan",
@@ -262,7 +262,7 @@ window.geeks = [
             "Algorithms",
             "Data structures"
         ],
-        avatar: `${geeks_url}/Levon.jpeg`,
+        avatar: `${geeks_url}/Levon-min.jpeg`,
         websites: {
             "youtube": "https://www.youtube.com/@deimusmeister"
         }
