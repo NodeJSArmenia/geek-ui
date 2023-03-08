@@ -1,17 +1,10 @@
 const geeksConteiner = document.getElementById("geeks-conteiner")
 const tgGroupsConteiner = document.getElementById("telegram-groups-conteiner")
 
-fetch("https://geek-api.onrender.com/geeks")
-  .then((res) => {
-    return res.json()
-  })
-  .then(handleGeeksData)
-
-fetch("https://geek-api.onrender.com/telegram-groups")
-  .then((res) => {
-    return res.json()
-  })
-  .then(handleTelegramGroups)
+function startHandling() {
+  handleGeeksData(window.geeks); 
+  handleTelegramGroups(window.telegramGroups);
+}
 
 function handleGeeksData(geeks) {
   geeksConteiner.innerHTML = ""
@@ -170,3 +163,5 @@ tgGroupsConteiner.innerHTML = `
 <a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
 <a><div class="telegram-group"><div class="loading-rect" style="width:100px; height:100px;"></div></div></a>
 `
+
+startHandling();
