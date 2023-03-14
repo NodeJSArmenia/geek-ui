@@ -100,7 +100,7 @@ window.geeks = [
         avatar: `${geeks_url}/Narek-min.jpeg`,
         websites: {
             "youtube": "https://www.youtube.com/c/StartupGrowthArmenia/",
-            "facebook": "https://www.facebook.com/ArmSnowboarder"
+            "facebook": "https://www.facebook.com/narek.safaryan.1992"
         }
     },
     {
@@ -295,7 +295,7 @@ window.geeks = [
             "Scratch",
             "Programming"
         ],
-        avatar: `${geeks_url}/Narek-min.jpeg`,
+        avatar: `${geeks_url}/Narek-2.jpeg`,
         websites: {
             "youtube": "https://www.youtube.com/@user-do6dv9tf5e"
         }
