@@ -297,7 +297,7 @@ window.geeks = [
         ],
         avatar: `${geeks_url}/Narek-2.jpeg`,
         websites: {
-            "youtube": "https://www.youtube.com/@user-do6dv9tf5e"
+            "youtube": "https://youtube.com/@NarekHarutyunyan-it5oz"
         }
     },
 ]
