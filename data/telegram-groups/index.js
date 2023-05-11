@@ -2,6 +2,11 @@ const telegram_url = "https://topentol.sirv.com/geeker/telegram";
 
 window.telegramGroups = [
     {
+        name: "JavaScript Universe",
+        avatar: `${telegram_url}/JavaScript-U-min.png`,
+        link: "https://t.me/javascript"
+    },
+    {
         name: "JavaScript Armenia",
         avatar: `${telegram_url}/JavaScript-min.png`,
         link: "https://t.me/javascriptarmenia"
