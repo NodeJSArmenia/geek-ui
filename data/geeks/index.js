@@ -300,5 +300,28 @@ window.geeks = [
             "youtube": "https://youtube.com/@NarekHarutyunyan-it5oz"
         }
     },
+    {
+        name: "Hayk Aslanyan",
+        hashtags: [
+            "C++",
+            "Algorithms"
+        ],
+        avatar: `${geeks_url}/Hayk-min.jpg`,
+        websites: {
+            "website": "https://profound.academy/cy-hub-cpp-course",
+            "telegram": "https://t.me/+QX36rYKgA645Y2Vi"
+        }
+    },
+    {
+        name: "Artak Sahakyan",
+        hashtags: [
+            "Events",
+            "IT News"
+        ],
+        avatar: `${geeks_url}/Artak-min.jpg`,
+        websites: {
+            "telegram": "t.me/Armtechblog"
+        }
+    },
 ]
             
