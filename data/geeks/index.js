@@ -320,7 +320,7 @@ window.geeks = [
         ],
         avatar: `${geeks_url}/Artak-min.jpg`,
         websites: {
-            "telegram": "t.me/Armtechblog"
+            "telegram": "https://t.me/Armtechblog"
         }
     },
 ]
