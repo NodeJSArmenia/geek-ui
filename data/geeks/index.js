@@ -308,8 +308,7 @@ window.geeks = [
         ],
         avatar: `${geeks_url}/Hayk-min.jpg`,
         websites: {
-            "website": "https://profound.academy/cy-hub-cpp-course",
-            "telegram": "https://t.me/+QX36rYKgA645Y2Vi"
+            "website": "https://profound.academy/cy-hub-cpp-course"
         }
     },
     {
