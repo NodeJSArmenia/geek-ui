@@ -211,16 +211,6 @@ window.geeks = [
         }
     },
     {
-        name: "Kristine Armiyants ",
-        hashtags: [
-            "Programming"
-        ],
-        avatar: `${geeks_url}/Kristine-min.jpg`,
-        websites: {
-            "medium": "https://medium.com/@christine.armiyants"
-        }
-    },
-    {
         name: "Hrant Khachatrian",
         hashtags: [
             "Machine Learning",
@@ -312,6 +302,16 @@ window.geeks = [
         }
     },
     {
+        name: "Kristine Armiyants",
+        hashtags: [
+            "Programming"
+        ],
+        avatar: `${geeks_url}/Kristine-min.jpg`,
+        websites: {
+            "medium": "https://medium.com/@christine.armiyants"
+        }
+    },
+    {
         name: "Artak Sahakyan",
         hashtags: [
             "Events",
@@ -320,6 +320,16 @@ window.geeks = [
         avatar: `${geeks_url}/Artak-min.jpg`,
         websites: {
             "telegram": "https://t.me/Armtechblog"
+        }
+    },
+        {
+        name: "Naira Gezhoyan",
+        hashtags: [
+            "Programming"
+        ],
+        avatar: `${geeks_url}/Naira-min.jpeg`,
+        websites: {
+            "medium": "https://hackernoon.com/u/naira"
         }
     },
 ]
