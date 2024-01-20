@@ -62,6 +62,11 @@ window.telegramGroups = [
         link: "https://t.me/LaravelHeroes"
     },
     {
+        name: "ML EVN",
+        avatar: `${telegram_url}/ML-EVN-min.jpeg`,
+        link: "https://t.me/+TosinG3QPJMTwRdN"
+    },
+    {
         name: "PYerevan",
         avatar: `${telegram_url}/Python-min.jpeg`,
         link: "https://t.me/pyerevan"
@@ -130,5 +135,10 @@ window.telegramGroups = [
         name: "Հայկական ՏՏ Համայնք",
         avatar: `${telegram_url}/Arm-tt-min.jpeg`,
         link: "https://t.me/ArmenianITCommunity"
+    },
+        {
+        name: "Ծրագրավորողներ",
+        avatar: `${telegram_url}/IT-min.jpeg`,
+        link: "https://t.me/tsragravoroxner"
     }
 ]
