@@ -213,6 +213,7 @@ a {
 .telegram-group {
   margin: 30px;
   width: 100px;
+  overflow: hidden;
 }
 
 .tg-logo {
