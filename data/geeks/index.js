@@ -93,6 +93,17 @@ window.geeks = [
         }
     },
     {
+        name: "Edith Yeghiazaryan",
+        hashtags: [
+            "globalcareer",
+            "expatlife"
+        ],
+        avatar: `${geeks_url}/edith.jpg`,
+        websites: {
+            "youtube": "https://www.youtube.com/@expatchatpodcast"
+        }
+    },
+    {
         name: "Narek Safaryan",
         hashtags: [
             "Startups"
