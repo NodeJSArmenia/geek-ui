@@ -136,9 +136,24 @@ window.telegramGroups = [
         avatar: `${telegram_url}/Arm-tt-min.jpeg`,
         link: "https://t.me/ArmenianITCommunity"
     },
-        {
+    {
         name: "Ծրագրավորողներ",
         avatar: `${telegram_url}/IT-min.jpeg`,
         link: "https://t.me/tsragravoroxner"
+    },
+    {
+        name: "Web3 Armenia",
+        avatar: `${telegram_url}/web3Armenia-min.jpeg`,
+        link: "https://t.me/web3Armenia"
+    },
+    {
+        name: "Tech Writers EVN",
+        avatar: `${telegram_url}/technicalwritersEVN-min.jpeg`,
+        link: "https://t.me/technicalwritersEVN"
+    },
+    {
+        name: "Binance Armenia",
+        avatar: `${telegram_url}/Binance_Armenian-min.jpeg`,
+        link: "https://t.me/Binance_Armenian"
     }
 ]
