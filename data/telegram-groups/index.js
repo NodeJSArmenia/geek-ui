@@ -155,5 +155,10 @@ window.telegramGroups = [
         name: "Binance Armenia",
         avatar: `${telegram_url}/Binance_Armenian-min.jpeg`,
         link: "https://t.me/Binance_Armenian"
+    },
+    {
+        name: "Armenian Young Developers",
+        avatar: `${telegram_url}/ArmenianYoungDevelopers-min.jpeg`,
+        link: "https://t.me/ArmenianYoungDevelopers"
     }
 ]
