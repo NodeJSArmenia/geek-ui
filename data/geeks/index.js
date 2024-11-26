@@ -280,6 +280,16 @@ window.geeks = [
         }
     },
     {
+        name: "Narek Babajanyan",
+        hashtags: [
+            "CyberSecurity"
+        ],
+        avatar: `${geeks_url}/Narek-Babajanyan-min.jpeg`,
+        websites: {
+            "telegram": "https://t.me/NarekBabajanyan"
+        }
+    },
+    {
         name: "Vahe Avetikyan",
         hashtags: [
             "Java",
