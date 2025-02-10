@@ -152,6 +152,11 @@ window.telegramGroups = [
         link: "https://t.me/technicalwritersEVN"
     },
     {
+        name: "Writers of Content",
+        avatar: `${telegram_url}/writersofcontent-min.jpg`,
+        link: "https://t.me/writersofcontent"
+    },
+    {
         name: "Binance Armenia",
         avatar: `${telegram_url}/Binance_Armenian-min.jpeg`,
         link: "https://t.me/Binance_Armenian"
